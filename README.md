@@ -2,11 +2,12 @@ inhabited
 =========
 
 `inhabited` is a tiny library for Node.JS to determine whether a location may
-be inhabited or not. It is used in [http://forecast.io/](Forecast) to quickly
-short-circuit geocoding queries (which are expensive) for locations far from
-human habitation. (In such cases, Forecast labels those locations "Middle of
-Nowhere." Go ahead and try it: open up Forecast via the link above, and then
-click and drag the location marker on the globe into the middle of the ocean.)
+be inhabited or not. It is used in [http://forecast.io/](http://forecast.io/)
+to quickly short-circuit geocoding queries (which are expensive) for locations
+far from human habitation. (In such cases, Forecast labels those locations
+"Middle of Nowhere." Go ahead and try it: open up Forecast via the link above,
+and then click and drag the location marker on the globe into the middle of the
+ocean.)
 
 Usage
 -----
