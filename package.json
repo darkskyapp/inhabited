@@ -1,0 +1,21 @@
+{
+  "name": "inhabited",
+  "version": "1.0.0",
+  "description": "quickly determine if a lat/lon may be inhabited or not",
+  "author": {
+    "name": "The Dark Sky Company, LLC",
+    "email": "support@darkskyapp.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darkskyapp/inhabited.git"
+  },
+  "dependencies": {
+    "cache-helpers": "1.3.x",
+    "pbj": "1.0.x"
+  },
+  "devDependencies": {
+    "mocha": "1.10.x",
+    "chai": "1.6.x"
+  }
+}
