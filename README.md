@@ -21,19 +21,10 @@ definitely not inhabited.
     var inhabited = require("inhabited");
 
     // <40.7144, -74.0060> happens to be in New York City.
-    inhabited(40.7144, -74.0060, function(err, inhabited) {
-      if(err) throw err;
-      console.log(inhabited); // prints "true"
-    });
+    console.log(inhabited(40.7144, -74.0060)); // prints "true"
 
     // <-29.5065, -136.5820> happens to be in the middle of the South Pacific.
-    inhabited(-29.5065, -136.5820, function(err, inhabited) {
-      if(err) throw err;
-      console.log(inhabited); // prints "false"
-    });
-
-The first call to the library will load a backing bitmap, which will be kept in
-memory for all subsequent calls.
+    console.log(inhabited(-29.5065, -136.5820)); // prints "false"
 
 License
 -------
