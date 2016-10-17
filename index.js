@@ -1,6 +1,6 @@
 "use strict";
 const path = require("path"),
-      PBJ  = require("PBJ"),
+      PBJ  = require("pbj"),
       MAP  = PBJ.readFileSync(path.join(__dirname, "var/map.pbjz"));
 
 function inhabited(lat, lon) {

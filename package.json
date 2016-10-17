@@ -1,6 +1,6 @@
 {
   "name": "inhabited",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "quickly determine if a lat/lon may be inhabited or not",
   "author": {
     "name": "The Dark Sky Company, LLC",
