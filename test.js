@@ -22,4 +22,9 @@ describe("inhabited", () => {
     "should return true for Oahu, Hawaii",
     () => expect(inhabited(21.438912, -158.000000)).to.be.true
   );
+
+  it(
+    "should return true for a location that a user complained about",
+    () => expect(inhabited(64.7161, -110.6174)).to.be.true
+  );
 });
