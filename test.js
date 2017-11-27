@@ -27,4 +27,9 @@ describe("inhabited", () => {
     "should return true for a location that a user complained about",
     () => expect(inhabited(64.7161, -110.6174)).to.be.true
   );
+
+  it(
+    "should return true for downtown Sydney",
+    () => expect(inhabited(-33.8636, 151.2095)).to.be.true
+  );
 });
